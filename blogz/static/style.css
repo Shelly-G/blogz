@@ -1,0 +1,148 @@
+
+body {
+    font-size: 100%;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fbfcdb;
+    padding-top: 2rem;
+    height: 100%;
+    margin: 0% 20% 5% 20%;
+    color: #6E7081;
+    line-height: 1.5rem;
+}
+
+.container {
+    margin: auto;
+    width: 35%;
+}
+
+
+
+nav {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav > ul > li {
+    display: inline;
+    padding: 0px 8px 0px 8px;
+    font-size: .9rem;
+}
+
+nav > ul > li > a:link {
+    text-decoration: none;
+}
+
+/* links */
+
+a:link, a:visited {
+    color: #73BCBA;
+}
+
+a:hover {
+    color: #BFB6CD;
+}
+
+/* headlines */
+
+h1 {
+    font-size: 3rem;
+    line-height: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: 300;
+    color: #BFB6CD;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: 300;
+    color: #73BCBA;
+}
+
+
+
+.byline {
+    padding-bottom: 1rem;
+    font-size: .9rem;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+
+
+form {
+    background-image: linear-gradient(-20deg, #fbfcdb 0%, #e9defa 100%);
+    margin: auto;
+    position: relative;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+    border-radius: 2%;
+    padding: 2rem;
+    padding-top: 1.4rem;
+    
+}
+
+
+.form_label {
+    display: block;
+}
+
+input {
+    width: 95%;
+    margin: auto;
+    padding: 0.6rem;
+    border: 1px solid #6E7081;
+    font-size: 1rem;
+    margin-bottom: .9rem;
+}
+
+textarea {
+    width: 97%;
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid #6E7081;
+    white-space: pre-wrap;
+}
+
+
+.submit { 
+    width: auto;
+    margin-top: .9rem;
+    padding: 0.7rem 2rem; 
+    background-color: #73BCBA;
+    border: 0;
+    color: #FFFFFF; 
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    opacity: 0.8;
+}
+
+.submit:hover {
+    opacity: 1.0;
+}
+
+/* error messages */
+
+.error {
+    color: crimson;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    line-height: 1rem;
+}
+
+.success {
+    color: green;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    line-height: 1rem;
+}
+
+.error:last-of-type, .success:last-of-type {
+    margin-bottom: 1.5rem;
+}
+

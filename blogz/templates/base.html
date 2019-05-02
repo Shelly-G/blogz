@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>{{title}}</title>
+    
+        <style>
+            .error { 
+                color: red; }
+                
+            body {
+              font-size: 100%;
+              font-family: 'Comic Sans MS', serif;
+            background-color: #f59dd8;
+            padding-top: 2rem;
+            height: 100%;
+            margin: 0% 20% 5% 20%;
+            color: #6E7081;
+            line-height: 1.5rem;
+            }
+            textarea {
+              width: 150%;
+              font-family: 'Comic Sans MS', serif;
+              border: 1px solid #6E7081;
+              white-space: pre-wrap;
+             }
+
+           
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        </style>
+       
+      <a link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+    
+
+    
+</head>
+<body>
+<div id="navigation">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">All Posts</a></li>
+        <li><a href="/newpost">New Post</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/logout">Logout</a></li>
+        <li><a href="/signup">Sign up</a></li>
+    </ul>
+</div>
+<div>
+    {% block content %}
+    {% endblock %}
+</div>
+
+</body>
+</html>
